@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bgmenu:#272727;
+    --bgcenter:#171717;
+    --txt:#FFFFFF;
+    --select:#EE4950;
+    --deepblue:#2E3A59;
+    --txtnav:#F3777D; 
+    --litxt2:#959D99;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: var(--bgcenter);
+}
+main{
+    display: flex;
+    gap: 30px;
+}
+.menu{
+    background-color: var(--bgmenu);
+    max-width: 100%;
+    height: 100vh;
+    border-right: var(--txt) solid 1px;
+    padding: 10px;
+    cursor: pointer;
+}
+.lognam{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.lognam h1{
+    color: var(--txt);
+    font-family: 'Inter', sans-serif;
+}
+.firstul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    color: var(--txt);
+    font-size: 20px;
+    font-weight: 700; 
+    margin-top: 40px;
+    cursor: pointer;
+}
+.menu li{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+}
+.first{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 300ms all linear;
+}
+.first:hover{
+    background-color: var(--select);
+}
+.second{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 300ms all linear;
+}
+.second:hover{
+    background-color: var(--select);
+}
+.third{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 300ms all linear;
+}
+.third:hover{
+    background-color: var(--select);
+}
+.forth{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 300ms all linear;
+}
+.forth:hover{
+    background-color: var(--select);
+}
+.hb{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+    padding: 10px;
+    color: var(--deepblue);
+    font-weight: 500; 
+    font-size: 20px;
+}
+.homeblue{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.secondul2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.first1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--txtnav);
+    font-weight: 500; 
+    font-size: 18px;
+}
+.two{
+    color: var(--litxt2);
+    font-weight: 500; 
+    font-size: 15px;
+}
+.two:hover{
+    color: var(--txt);
+}
