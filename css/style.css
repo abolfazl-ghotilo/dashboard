@@ -147,6 +147,9 @@ main{
     margin-top: 30px;
 }
 .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 850px;
     height: 370px;
     background-image: url(../assets/pishro.jpg);
@@ -193,3 +196,21 @@ main{
     width: 1px;
     height: 20px;
 }
+.bottomcrad{
+    display: flex;
+    justify-content: space-between;
+}
+.musicstyles ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 5px;
+    list-style-type: none;
+    font-weight: 500;
+    color: var(--litxt2);
+}
+.musicstyles li:hover{
+    color: black;
+    cursor: pointer;
+}
+
