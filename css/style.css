@@ -8,6 +8,7 @@
     --bgcenter:#171717;
     --txt:#FFFFFF;
     --select:#EE4950;
+    --deepgray:#4E4E4E; 
     --deepblue:#2E3A59;
     --txtnav:#F3777D; 
     --litxt2:#959D99;
@@ -136,7 +137,6 @@ main{
 }
 .section2{
     width: 55%;
-    background-color: #EE4950;
 }
 .card{
     display: flex;
@@ -204,7 +204,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 10px 5px;
+    padding: 10px 15px;
     list-style-type: none;
     font-weight: 500;
     color: var(--litxt2);
@@ -213,4 +213,45 @@ main{
     color: black;
     cursor: pointer;
 }
-
+.singerna{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width:  300px;
+    direction: rtl;
+    padding: 10px 15px;
+}
+.featured{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--litxt2);
+}
+.singerna span{
+    color: var(--deepgray);
+    font-size: 33px;
+}
+.post{
+    color: var(--litxt2);
+    font-size: 30px;
+}
+.playbtn{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 15px;
+}
+.playbtn button{
+    padding: 12px 27px;
+    border: none;
+    background-color: var(--select);
+    color: var(--txt);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 400ms all ease;
+}
+.playbtn button:hover{
+    background-color: transparent;
+    outline: solid 1.5px var(--select);
+    color: #EE4950;
+}
