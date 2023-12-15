@@ -21,10 +21,13 @@ main{
     display: flex;
     gap: 30px;
 }
+section{
+   
+}
 .menu{
     background-color: var(--bgmenu);
     max-width: 100%;
-    height: 100vh;
+    height: 100%;
     border-right: var(--txt) solid 1px;
     padding: 10px;
     cursor: pointer;
@@ -275,4 +278,52 @@ main{
 }
 .newicon h1{
     color: var(--txt);
+}
+.releases-body{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    height: 300px;
+    margin-top: 7px;
+}
+.releases-body div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.releases-img div{
+    max-width: 200px;
+    width: 200px;
+    height: 190px;
+    background-size: cover;
+    border-radius: 5px;
+}
+.releases-img .poori{
+    background-image: url(../assets/poori.jpg);
+}
+.releases-img .sorena{
+    background-image: url(../assets/gavazn.jpg);
+}
+.releases-img .hossein{
+    background-image: url(../assets/q69.jpg);
+}
+.releases-img .shayea{
+    background-image: url(../assets/Halale.jpg);
+}
+.releases-img .bahram{
+    background-image: url(../assets/Eshtebah_Khoob.jpg);
+}
+.releases-img .hiphoppologist{
+    background-image: url(../assets/shanbeh.jpg);
+}
+.releases-body h1{
+    color: var(--txt);
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+.releases-body h1 span{
+    font-size: 15px;
+    color: var(--litxt2);
 }
