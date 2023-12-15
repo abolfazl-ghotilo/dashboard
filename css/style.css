@@ -284,7 +284,7 @@ section{
     display: flex;
     flex-direction: row;
     gap: 13px;
-    height: 300px;
+    height: 250px;
     margin-top: 7px;
 }
 .releases-body div{
@@ -326,4 +326,9 @@ section{
 .releases-body h1 span{
     font-size: 15px;
     color: var(--litxt2);
+}
+.releases-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
