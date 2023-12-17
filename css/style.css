@@ -280,12 +280,15 @@ section{
     color: var(--txt);
 }
 .releases-body{
-    overflow-x: hidden;
+    overflow-x: scroll;
     display: flex;
     flex-direction: row;
     gap: 13px;
     height: 250px;
     margin-top: 7px;
+}
+.releases-body::-webkit-scrollbar{
+    display: none;
 }
 .releases-body div{
     display: flex;
@@ -344,7 +347,10 @@ section{
     display: flex;
     align-items: center;
     gap: 55px;
-    overflow-x: hidden;
+    overflow-x: scroll;
+}
+.stories-body::-webkit-scrollbar{
+    display: none;
 }
 .base{
     display: flex;
