@@ -31,6 +31,7 @@ section{
     border-right: var(--txt) solid 1px;
     padding: 10px;
     cursor: pointer;
+    position: fixed;
 }
 .lognam{
     display: flex;
@@ -143,6 +144,7 @@ section{
     display: flex;
     flex-direction: column;
     gap: 25px;
+    margin-left: 255px;
 }
 .card{
     display: flex;
