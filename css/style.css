@@ -21,7 +21,7 @@ body{
 }
 main{
     display: flex;
-    gap: 50px;
+    gap: 25px;
 }
 .section1{
     width: 15%;
@@ -145,6 +145,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 25px;
+    margin-left: 5px;
 }
 .card{
     display: flex;
@@ -574,4 +575,10 @@ main{
     height: 60px;
     background-image: url(../assets/gavazn.jpg);
     background-size: cover;
+}
+.section3{
+    margin-top: 30px;
+    background-color: #EE4950;
+    width: 25%;
+    height: 100;
 }
