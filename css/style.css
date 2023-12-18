@@ -276,7 +276,7 @@ main{
     align-items: center;
     gap: 10px;
 }
-.newicon h1{
+.titles{
     color: var(--txt);
 }
 .releases-body{
@@ -433,4 +433,10 @@ main{
     font-size: 15px;
     text-align: center;
     color: var(--litxt2);
+}
+.recentlyplayed-head{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
 }
