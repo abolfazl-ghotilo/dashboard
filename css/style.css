@@ -145,7 +145,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 25px;
-    margin-left: 5px;
+
 }
 .card{
     display: flex;
@@ -582,7 +582,7 @@ main{
     margin-top: 30px;
     width: 25%;
     height: 100%;
-    border-radius: 5px;
+    border-radius: 5px;  
 }
 .real-time-head{
     display: flex;
@@ -629,9 +629,10 @@ main{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    gap: 10px;
     padding: 10px;
     width: 100%;
-    height: 303px;
+    height: 280px;
     background-color: var(--bgmenu);
     border-radius: 5px;
     overflow: scroll;
@@ -676,12 +677,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 240px;
-    margin-left: -10px;
-    width:50.9vh;
-    padding: 10px;
-    position: fixed;
-    background-color: var(--bgmenu);
+    width: 100%;
+    height: 50px;
 }
 .expand h1{
     font-size: 15px;
@@ -691,7 +688,14 @@ main{
 .toppart{
     display: flex;
     flex-direction: column;
-    width: 100%;
     background-color: var(--bgmenu);
-    padding: 10px;
+    border-radius: 5px;
+}
+.categories-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.categories-head h1{
+    color: var(--txt);
 }
