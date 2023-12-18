@@ -7,7 +7,9 @@
     --bgmenu:#272727;
     --bgcenter:#171717;
     --txt:#FFFFFF;
+    --seconds:#AFB6B2;
     --select:#EE4950;
+    --number:#626A66;
     --deepgray:#4E4E4E; 
     --deepblue:#2E3A59;
     --txtnav:#F3777D; 
@@ -439,4 +441,137 @@ main{
     align-items: center;
     gap: 10px;
     width: 100%;
+}
+.recentlyplayed-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 200px;
+    overflow: scroll;
+}
+.recentlyplayed-body::-webkit-scrollbar{
+    display: none;
+}
+.playlist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.ho3ein{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ho3ein h1{
+    color: var(--number);
+    font-size: 17px;
+}
+.ho3ein h2{
+    color: var(--seconds);
+    font-size: 22px;
+}
+.hrah{
+    border-radius: 5px;
+    width: 70px;
+    height: 60px;
+    background-image: url(../assets/ho3einkh.jpg);
+    background-size: cover;
+}
+.spans{
+    text-align: center;
+    color: var(--litxt2);
+    font-size: 15px;
+    font-weight: 500;
+}
+.like{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.like h2{
+    color: var(--seconds);
+}
+.poori3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.poori3 h1{
+    color: var(--number);
+    font-size: 17px;
+}
+.poori3 h2{
+    color: var(--seconds);
+    font-size: 22px;
+}
+.gp{
+    border-radius: 5px;
+    width: 70px;
+    height: 60px;
+    background-image: url(../assets/poori.jpg);
+    background-size: cover;
+}
+.pishroo{
+    border-radius: 5px;
+    width: 70px;
+    height: 60px;
+    background-image: url(../assets/Pishro-rail.jpg);
+    background-size: cover;
+}
+.pisroo13{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pisroo13 h1{
+    color: var(--number);
+    font-size: 17px;
+}
+.pisroo13 h2{
+    color: var(--seconds);
+    font-size: 22px;
+}
+.doki{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.doki h1{
+    color: var(--number);
+    font-size: 17px;
+}
+.doki h2{
+    color: var(--seconds);
+    font-size: 22px;
+}
+.hiphopolo{
+    border-radius: 5px;
+    width: 70px;
+    height: 60px;
+    background-image: url(../assets/shanbeh.jpg);
+    background-size: cover;
+}
+.alis{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.alis h1{
+    color: var(--number);
+    font-size: 17px;
+}
+.alis h2{
+    color: var(--seconds);
+    font-size: 22px;
+}
+.Ali-sorena1{
+    border-radius: 5px;
+    width: 70px;
+    height: 60px;
+    background-image: url(../assets/gavazn.jpg);
+    background-size: cover;
 }
