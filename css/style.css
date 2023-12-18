@@ -694,8 +694,14 @@ main{
 .categories-head{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 24px;
 }
 .categories-head h1{
     color: var(--txt);
+}
+.categories-head h3{
+    color: var(--select);
+    font-size: 15px;
+    font-weight: 200;
 }
