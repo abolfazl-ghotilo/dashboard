@@ -631,6 +631,7 @@ main{
 .real-time-body{
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
     padding: 10px;
     gap: 10px;
     width: 100%;
@@ -670,4 +671,19 @@ main{
 .numberright{
     color: var(--number);
     font-size: 17px;
+}
+.expand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 51vh;
+    padding: 10px;
+    margin-top: 235px;
+    position: fixed;
+}
+.expand h1{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--seconds);
 }
