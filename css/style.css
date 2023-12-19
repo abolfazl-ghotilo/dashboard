@@ -705,3 +705,60 @@ main{
     font-size: 15px;
     font-weight: 200;
 }
+.categories-body{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin-top: 35px;
+}
+.categories-body div{
+    border-radius: 5px;
+    width: 100%;
+    height: 90px;
+    background-color: #272727;
+}
+.h1categories{
+    color: var(--txt);
+}
+.rap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/rap.png);
+    background-size: cover  
+}
+.jazz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/pop.png);
+    background-size: cover;  
+}
+.hiphop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/hiphop.png);
+    background-size: cover; 
+}
+.pop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/chill.png);
+    background-size: cover; 
+}
+.rock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/jazz.png);
+    background-size: cover; 
+}
+.chill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/rock.png);
+    background-size: cover; 
+}
