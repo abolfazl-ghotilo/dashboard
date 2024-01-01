@@ -762,3 +762,70 @@ main{
     background-image: url(../assets/rock.png);
     background-size: cover; 
 }
+.player-tab{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    background-color: #272727;
+    width: 100%;
+    height: 75px;
+    bottom: 0;
+    border-top: solid 1.5px var(--seconds);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.playbtns{
+    display: flex;
+    align-items: center;
+}
+.centerinfo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tnam{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.tnam h1{
+    color: var(--txt);
+    font-size: 30px;
+    font-weight: 500;
+}
+.tnam span{
+    color: var(--seconds);
+    font-size: 15px;
+    font-weight: 500;
+}
+.p-time{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.p-time span{
+    color: var(--seconds);
+}
+.p-line{
+    width: 600px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--txt);
+}
+.p-inline{
+    height: 100%;
+    width: 70%;
+    background-color: var(--select);
+    border-radius: 2px;
+}
+.shandli{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
